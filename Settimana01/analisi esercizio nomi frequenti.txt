@@ -1,0 +1,35 @@
+"in quest'aula"
+"iscritti a questo corso" ***
+
+"nomi"
+"Pier Paolo"
+1) nel caso di nomi composti, li tratto come un nome unico  ***
+2) nel caso di nomi composti, li separo nei singoli nomi componenti
+
+Quali sono i nomi (semplici o composti) più frequenti degli studenti iscritti a questo corso?
+
+NO  Il nome più frequente
+
+i nomi degli studenti che compaiono con la massima frequenza
+Il nome più frequente, o più nomi in caso di parità di frequenza
+
+L'elenco di tutti i nomi, ordinati per frequenza
+
+L'elenco di tutti i nomi, ordinati per frequenza, purché abbiano frequenza > 3
+
+Per questi nomi, visualizzare il nome stesso, e il valore della frequenza corrispondente.
+
+
+Strategia 1)
+Creo una tabella, inizialmente vuota, in cui registro tutti i nomi nuovi che incontro, ed
+incremento il valore di frequenza di quelli che erano già presenti
+
+Strategia 2)
+Raccolgo tutti i nomi e li metto in ordine alfabetico. Partendo dall'inizio, identifico
+i "blocchi" di nomi consecutivi ed identici, e ne conto la dimensione
+
+Strategia 3)
+Prendo il primo nome, e cerco nell'elenco TUTTI gli altri studenti con lo stesso nome. Annoto
+il studenti trovati, poi li cancello e passo al primo nome rimasto, ripetendo così finché ci
+sono nomi.
+

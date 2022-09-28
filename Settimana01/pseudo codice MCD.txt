@@ -1,0 +1,13 @@
+Calcolo MCD(a, b)
+
+x che divide sia a sia b, ed è il più grande possibile
+
+x = 1
+
+RIPETI FINCHÉ x<a e x<b:
+	verifica se: (x divide a) e (x divide b)
+		se sì, allora mcd = x
+	incrementa x (cioè fai x = x + 1)
+	
+stampa mcd
+

@@ -57,9 +57,9 @@ def main():
         f"I nomi che compaiono almeno 3 volte sono {', '.join(sorted(list(freq2.keys())))}."
     )
 
-    # hist = list(sorted(list(freq2.items()), key=operator.itemgetter(1), reverse=True))
-    # pyplot.barh(y=[h[0] for h in hist], width=[h[1] for h in hist])
-    # pyplot.show()
+    hist = list(sorted(list(freq2.items()), key=operator.itemgetter(1), reverse=True))
+    pyplot.barh(y=[h[0] for h in hist], width=[h[1] for h in hist])
+    pyplot.show()
 
 
 main()
