@@ -2,7 +2,7 @@
 # Esercizi svolti in aula
 
 - [Settimana 01](./Settimana01/) - Introduzione alla programmazione. Algoritmi. Pseudo-Codice. Diagrammi di flusso.
-- Settimana 02 - Introduzione a Python. Variabili, espressioni. Stringhe.
+- [Settimana 02](./Settimana02/) - Introduzione a Python. Variabili, espressioni. Stringhe.
 - Settimana 03 - Costrutti condizionali.
 - Settimana 04 - Cicli `while`. Input.
 - Settimana 05 - Cicli `for`. Cicli annidati. Esercizio "BlackJack"
