@@ -3,7 +3,7 @@
 
 - [Settimana 01](./Settimana01/) - Introduzione alla programmazione. Algoritmi. Pseudo-Codice. Diagrammi di flusso.
 - [Settimana 02](./Settimana02/) - Introduzione a Python. Variabili, espressioni. Stringhe.
-- Settimana 03 - Costrutti condizionali.
+- [Settimana 03](./Settimana03/) - Stringhe. Input e output. Costrutti condizionali.
 - Settimana 04 - Cicli `while`. Input.
 - Settimana 05 - Cicli `for`. Cicli annidati. Esercizio "BlackJack"
 - Settimana 06 - Funzioni. Risoluzione esercizi selezionati Lab04.

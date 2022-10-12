@@ -36,12 +36,11 @@ LATO = 25  # cm
 # TODO: Verificare che LUN >= LATO
 # Garbage in, garbage out
 
-num_coppie = int( (LUN - LATO) / (2*LATO) )
+num_coppie = int((LUN - LATO) / (2 * LATO))
 num_bianche = num_coppie
 num_nere = num_coppie + 1
 
-spazio = ( LUN - LATO*(num_bianche+num_nere) ) / 2
+spazio = (LUN - LATO * (num_bianche + num_nere)) / 2
 
 print('Posare', num_nere, 'piastrelle nere e ', num_bianche,
       'bianche, lasciando uno spazio di', spazio, 'cm per lato')
-
