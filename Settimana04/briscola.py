@@ -29,7 +29,7 @@ VALORI = "24567JQK3A"  # in ordine crescente di valore!!!
 
 # 1. Scegli e stampa il seme di briscola
 # definisce: briscola = 'C', 'Q', 'F', 'P'
-#casuale = int(random()*4)
+# ALTERNATIVA: casuale = int(random() * 4)
 casuale = randint(0, 3)
 briscola = SEMI[casuale]
 
@@ -40,24 +40,21 @@ print(f'La briscola per questa mano è: {briscola}')
 
 # IN ALTERNATIVA
 # definisce: valore1 = '3', e seme1 = 'Q'
-# definisce: valore1 = 2, seme1 = 1  -> SEMI[1]
+# definisce: valore1 = 2, seme1 = 1  -> scriverò SEMI[seme1] per trovare l'effettivo seme
 
 giocata1 = input('Primo giocatore: ')
 giocata1 = giocata1.upper().strip()
-if not(len(giocata1) == 2 and giocata1[0] in VALORI and giocata1[1] in SEMI):
-#if len(giocata1)!=2 or giocata1[0] not in VALORI or giocata1[1] not in SEMI:
+if not (len(giocata1) == 2 and giocata1[0] in VALORI and giocata1[1] in SEMI):
+    # if len(giocata1)!=2 or giocata1[0] not in VALORI or giocata1[1] not in SEMI:
     exit(f"Giocata {giocata1} non valida...")
 
-
-# 3. Acquisisisci e verifica la giocata 2
+# 3. Acquisisci e verifica la giocata 2
 # definisce: giocata2 = '3F', 'JP' , 2 caratteri maiuscoli, di cui il primo tra VALORI ed il secondo tra SEMI ****
 giocata2 = input('Secondo giocatore: ')
 
 giocata2 = giocata2.upper().strip()
-if not(len(giocata2)==2 and giocata2[0] in VALORI and giocata2[1] in SEMI) or giocata2==giocata1:
+if not (len(giocata2) == 2 and giocata2[0] in VALORI and giocata2[1] in SEMI) or giocata2 == giocata1:
     exit(f"Giocata {giocata2} non valida...")
-
-
 
 # 4. Determina e stampa chi ha vinto
 # riceve: briscola, giocata1, giocata2 (corrette e diverse tra loro)
@@ -76,7 +73,7 @@ elif giocata1[1] != giocata2[1] and (giocata1[1] != briscola and giocata2[1] != 
 else:
     # stesso seme (che sia briscola o no, non importa)
 
-    # cerca la posizione della carta nell'elenco dei valori
+    # cerca la posizione della carta nell'elenco dei valori:
     # poiché tale elenco è ordinato per valori crescenti,
     # la posizione maggiore (più a destra) è vincente
     pos1 = VALORI.find(giocata1[0])
@@ -88,6 +85,3 @@ else:
 
 print(f'Ha vinto il giocatore {vincitore}')
 
-#     biscola = 'Q'
-#     giocata1 = 'QP'
-# if briscola in giocata1[1]
