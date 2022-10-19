@@ -3,9 +3,9 @@
 
 - [Settimana 01](./Settimana01/) - Introduzione alla programmazione. Algoritmi. Pseudo-Codice. Diagrammi di flusso.
 - [Settimana 02](./Settimana02/) - Introduzione a Python. Variabili, espressioni. Stringhe.
-- [Settimana 03](./Settimana03/) - Stringhe. Input e output. Costrutti condizionali.
-- Settimana 04 - Cicli `while`. Input.
-- Settimana 05 - Cicli `for`. Cicli annidati. Esercizio "BlackJack"
+- [Settimana 03](./Settimana03/) - Stringhe. Input. Costrutti condizionali.
+- [Settimana 04](./Settimana04/) - Output formattato. Costrutti condizionali. Variabili Booleane. Analisi di stringhe.
+- Settimana 05 - Cicli `while`. Cicli `for`. Cicli annidati. Esercizio "BlackJack"
 - Settimana 06 - Funzioni. Risoluzione esercizi selezionati Lab04.
 - Settimana 07 - Liste
 - Settimana 08 - Liste e Tabelle
