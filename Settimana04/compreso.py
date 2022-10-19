@@ -22,3 +22,5 @@ if numero >= val_min and numero <= val_max:
     print('Compreso')
 else:
     print('Escluso')
+
+# if numero >= val_min and <= val_max:
