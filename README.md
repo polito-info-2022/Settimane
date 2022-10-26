@@ -5,8 +5,8 @@
 - [Settimana 02](./Settimana02/) - Introduzione a Python. Variabili, espressioni. Stringhe.
 - [Settimana 03](./Settimana03/) - Stringhe. Input. Costrutti condizionali.
 - [Settimana 04](./Settimana04/) - Output formattato. Costrutti condizionali. Variabili Booleane. Analisi di stringhe.
-- Settimana 05 - Cicli `while`. Cicli `for`. Cicli annidati. Esercizio "BlackJack"
-- Settimana 06 - Funzioni. Risoluzione esercizi selezionati Lab04.
+- [Settimana 05](./Settimana05/) - Cicli `while`. Cicli `for`. Cicli annidati.
+- Settimana 06 - Funzioni. Esercizi su cicli.
 - Settimana 07 - Liste
 - Settimana 08 - Liste e Tabelle
 - Settimana 09 - File di testo
