@@ -6,9 +6,9 @@
 - [Settimana 03](./Settimana03/) - Stringhe. Input. Costrutti condizionali.
 - [Settimana 04](./Settimana04/) - Output formattato. Costrutti condizionali. Variabili Booleane. Analisi di stringhe.
 - [Settimana 05](./Settimana05/) - Cicli `while`. Cicli `for`. Cicli annidati.
-- Settimana 06 - Funzioni. Esercizi su cicli.
-- Settimana 07 - Liste
-- Settimana 08 - Liste e Tabelle
+- [Settimana 06](./Settimana06/) - Funzioni. Esercizi su cicli.
+- [Settimana 07](./Settimana07/) - Liste
+- [Settimana 08](./Settimana08/) - Liste e Funzioni
 - Settimana 09 - File di testo
 - Settimana 10 - File strutturati e CSV
 - Settimana 11 - Eccezioni
