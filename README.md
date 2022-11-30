@@ -9,9 +9,9 @@
 - [Settimana 06](./Settimana06/) - Funzioni. Esercizi su cicli.
 - [Settimana 07](./Settimana07/) - Liste
 - [Settimana 08](./Settimana08/) - Liste e Funzioni
-- Settimana 09 - File di testo
-- Settimana 10 - File strutturati e CSV
-- Settimana 11 - Eccezioni
+- [Settimana 09](./Settimana09/) - Tabelle e File di testo
+- [Settimana 10](./Settimana10/) - File strutturati e CSV
+- Settimana 11 - File ed Eccezioni
 - Settimana 12 - Insiemi e Dizionari
 - Settimana 13 - Simulazione d'esame
 - Settimana 14 - Esercizi d'esame
