@@ -12,6 +12,6 @@
 - [Settimana 09](./Settimana09/) - Tabelle e File di testo
 - [Settimana 10](./Settimana10/) - File strutturati e CSV
 - [Settimana 11](./Settimana11/) - Insiemi e Dizionari
-- Settimana 12 - Strutture dati complesse
+- [Settimana 12](./Settimana12/) - Strutture dati complesse
 - Settimana 13 - Simulazione d'esame
 - Settimana 14 - Esercizi d'esame
