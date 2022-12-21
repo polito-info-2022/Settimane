@@ -13,5 +13,5 @@
 - [Settimana 10](./Settimana10/) - File strutturati e CSV
 - [Settimana 11](./Settimana11/) - Insiemi e Dizionari
 - [Settimana 12](./Settimana12/) - Strutture dati complesse
-- Settimana 13 - Simulazione d'esame
+- [Settimana 13](./Settimana13/) - Esercizi d'esame ([Piramidi](./Settimana13/piramidi), [Indovina Chi](./Settimana13/indovina_chi))
 - Settimana 14 - Esercizi d'esame
