@@ -14,4 +14,4 @@
 - [Settimana 11](./Settimana11/) - Insiemi e Dizionari
 - [Settimana 12](./Settimana12/) - Strutture dati complesse
 - [Settimana 13](./Settimana13/) - Esercizi d'esame ([Piramidi](./Settimana13/piramidi), [Indovina Chi](./Settimana13/indovina_chi))
-- Settimana 14 - Esercizi d'esame
+- [Settimana 14](./Settimana14/) - Esercizi d'esame ([Auto noleggio](./Settimana14/auto_noleggio), [Classifica torneo](./Settimana14/classifica_torneo))
