@@ -1,6 +1,7 @@
 # Memorizziamo i dati della classifica in un dizionario
 # chiave : nome della squadra
 # valore : dizionario usato come record { 'GIOCATE', 'PUNTI', 'Q', 'PF', 'PS' }
+from operator import itemgetter
 from pprint import pprint
 
 
@@ -47,8 +48,34 @@ def crea_risultati(nome_file):
 
     return risultati
 
+
 def main():
     risultati = crea_risultati('torneo.txt')
-    pprint(risultati)
+
+    # tabella (lista di liste)
+    # [ PUNTI, Q, NOME, GIOCATE, PF, PS ]
+
+    tabella = []
+    for squadra in risultati:
+        tabella.append([
+            risultati[squadra]["PUNTI"],
+            risultati[squadra]["Q"],
+            squadra,
+            risultati[squadra]["GIOCATE"],
+            risultati[squadra]["PF"],
+            risultati[squadra]["PS"]
+        ])
+
+    # pprint(tabella)
+    tabella.sort(reverse=True)
+    # pprint(tabella)
+
+    # tabella.sort(key=itemgetter(1), reverse=True)
+    # tabella.sort(key=itemgetter(0), reverse=True)
+
+    print('SQUADRA               GI PTI   Q   PF  PS')
+    for riga in tabella:
+        print(f'{riga[2]:20s} {riga[3]:2d} {riga[0]:3d} {riga[1]:5.2f} {riga[4]:3d} {riga[5]:3d}')
+
 
 main()
