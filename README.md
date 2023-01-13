@@ -17,4 +17,4 @@
 - [Settimana 14](./Settimana14/) - Esercizi d'esame ([Auto noleggio](./Settimana14/auto_noleggio),
 [Classifica torneo](./Settimana14/classifica_torneo), [Costo prodotto](./Settimana14/costo_prodotto), 
 [Mezzi pubblici](./Settimana14/mezzi_pubblici), [Separa conti](Settimana14/separa_conti), 
-[Lab12 - Contatti hotel](./Settimana14/Lab12))
+[Lab12 - Contatti hotel](./Settimana14/Lab12)) e soluzioni alle domande di Teoria
